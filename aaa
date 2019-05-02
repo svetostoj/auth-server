@@ -1,0 +1,28 @@
+npm install --save express mongoose morgan
+  
+  npm install --save nodemon
+
+  Robomongo
+
+  npm install --save bcrypt-nodejs
+
+npm install --save jwt-simple
+npm install --save passport passport-jwt
+npm install --save passport passport-local
+
+
+  
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~
+npm install @babel/core @babel/register @babel/preset-env --save-dev
+~~~~~~~~~~~~~~~~~~~~~~~~
+start.js
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Transpile all code following this line with babel and use '@babel/preset-env' (aka ES6) preset.
+require("@babel/register")({
+    presets: ["@babel/preset-env"]
+  });
+  
+  // Import the rest of our application.
+  module.exports = require('./index.js')
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
